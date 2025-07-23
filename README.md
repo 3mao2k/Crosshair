@@ -1,34 +1,43 @@
-# 🎯 Crosshair Overlay Tool
+# 🎯 Ứng Dụng Crosshair Overlay
 
-**Crosshair** là ứng dụng hỗ trợ tạo tâm ảo trên màn hình, giúp bạn cải thiện độ chính xác khi chơi game FPS.
+Ứng dụng tạo tâm ngắm nổi nhẹ, chạy trên Windows, được viết bằng Python và đóng gói sẵn thành file `.exe`.  
+✅ **Không cần cài đặt Python** – chỉ cần mở là dùng!
 
----
-
-## ✅ Tính năng
-
-- Hiển thị tâm cố định (PNG overlay)
-- Tuỳ chỉnh:
-  - Độ trong suốt (opacity)
-  - Kích thước (scale)
-- Lưu cấu hình vào `config.json`
+![Demo](https://github.com/user-attachments/assets/526325e0-cf2d-4922-b3f8-e1f752bf5f78)
 
 ---
 
-## 🚀 Cách sử dụng
+## 📦 Tính Năng
 
-1. Tải file `.zip` tại [Releases](https://github.com/3mao2k/Crosshair/releases)
-2. Giải nén ra thư mục bất kỳ
-3. Chạy `CrisHair.exe`
-4. Chọn ảnh tâm (PNG), tuỳ chỉnh theo ý muốn
-
----
-
-## 💡 Lưu ý
-
-- Ảnh tâm nên là PNG nền trong suốt
-- Ứng dụng không cần cài đặt, không cần Python
+- Điều chỉnh độ trong suốt và kích thước
+- Luôn hiển thị trên cùng (hữu ích khi chơi game)
+- Lưu cấu hình tự động vào `config.json`
+- Giao diện đơn giản, dễ sử dụng
 
 ---
 
-## 📁 Cấu trúc file
+## 🚀 Bắt Đầu Sử Dụng
 
+> ✅ **Không cần cài Python**. Chỉ cần tải về và chạy file `.exe`.
+
+### 🔽 Tải Về
+
+- Truy cập tab [Releases](https://github.com/3mao2k/Crosshair/releases)
+- Tải file `.zip`, giải nén
+- Chạy file `Crosshair.exe` trong thư mục
+
+---
+
+## 🧑‍💻 Cách Dùng
+
+1. Nhấn **"Show Crosshair"** để hiệm tâm ngắm
+2. Ảnh tâm ngắm sẽ được hiển thị giữa màn hình và luôn ở trên cùng
+3. Điều chỉnh thanh trượt **Transparency (Độ trong suốt)** và **Scale (Tỷ lệ)**
+
+---
+
+## ⚙ Tệp `config.json`
+
+Tệp `config.json` sẽ tự tạo để lưu cấu hình:
+```json
+{"opacity": 100, "scale": 100}
