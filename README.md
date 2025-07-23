@@ -10,7 +10,6 @@
 - Tuỳ chỉnh:
   - Độ trong suốt (opacity)
   - Kích thước (scale)
-  - Vị trí tâm
 - Lưu cấu hình vào `config.json`
 
 ---
